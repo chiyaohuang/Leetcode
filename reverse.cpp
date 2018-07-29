@@ -24,9 +24,7 @@ class Solution {
 public:
     int reverse(int x) {
 
-        int input = x;
-
-        int quo = input;
+        int quo = x;
         int output = 0;
         while(quo != 0){
             int res = quo % (10);
