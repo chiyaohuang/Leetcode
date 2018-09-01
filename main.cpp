@@ -1,15 +1,13 @@
 
 #include<iostream>
-#include"src/string_to_integer.cpp"
+#include"src/letter_combinations_of_a_phone_number.cpp"
 
 int main(){
     Solution so;
-//    std::cout << so.myAtoi("2147483648") << std::endl;
-//    std::cout << so.myAtoi("-91283472332") << std::endl;
 
-//    std::cout << so.myAtoi("+-1") << std::endl;
-
-//    std::cout << so.myAtoi("   +0 123") << std::endl;
-    std::cout << so.myAtoi("-     234") << std::endl;
+    auto tmp = so.letterCombinations("9756393");
+    for(int i = 0; i < tmp.size(); i++){
+        std::cout << tmp[i] << std::endl;
+    }
     return 0;
 }
