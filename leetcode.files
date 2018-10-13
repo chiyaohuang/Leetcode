@@ -16,6 +16,7 @@ src/remove_element.cpp
 src/reverse.cpp
 src/roman_to_integer.cpp
 src/string_to_integer.cpp
+src/swap_nodes_in_pairs.cpp
 src/twosum.cpp
 src/valid_parentheses.cpp
 src/zigzag_conversion.cpp
