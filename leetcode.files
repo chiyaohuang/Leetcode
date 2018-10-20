@@ -10,6 +10,7 @@ src/longest_common_prefix.cpp
 src/longest_palindromic_substring.cpp
 src/longest_substring_without_repeating_characters.cpp
 src/merge_two_sorted_lists.cpp
+src/next_permutation.cpp
 src/palindrome_number.cpp
 src/remove_duplicates_from_sorted_array.cpp
 src/remove_element.cpp
